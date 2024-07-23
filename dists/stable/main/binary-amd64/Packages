@@ -1,0 +1,686 @@
+Package: simpletestapp
+Version: 0.1.1
+Architecture: amd64
+Maintainer: Richard Case <richard.case@outlook.ocom>
+Installed-Size: 1320
+Filename: pool/main/simpletestapp/simpletestapp_0.1.1_linux_amd64.deb
+Size: 626350
+MD5sum: 5a6a18a7902b4842a76038c4c2ecace9
+SHA1: 1eb27434f82020c746b48e11ba4cace24d623f8d
+SHA256: 03482d983d03206e80c9ecf1529212fea66d197aca735adc3dda6a87c0c2ab6b
+Priority: optional
+Description: A simple cli app for use in demos
+
+Package: simpletestapp
+Version: 0.1.2
+Architecture: amd64
+Maintainer: Richard Case <richard.case@outlook.ocom>
+Installed-Size: 1320
+Filename: pool/main/simpletestapp/simpletestapp_0.1.2_linux_amd64.deb
+Size: 626400
+MD5sum: e202ef4402b30cb8dbe1b0939b2bcbe1
+SHA1: 5a885142a4fe89aae7bf4ef3dba9fcb6551cf63b
+SHA256: f0ce94ff33de49c300b077cb334b5ebfb279bba27cf0fdc8ad2ad1174b0f5a5b
+Priority: optional
+Description: A simple cli app for use in demos
+
+Package: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 10232
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libdbus-1-3 (>= 1.11.16+really1.11.16), libfreeipmi17 (>= 1.4.4), libhdf5-103-1, libhdf5-hl-100, libhwloc15 (>= 2.7.0), libipmimonitoring6 (>= 1.1.5), libjson-c5 (>= 0.15), libjwt0 (>= 1.10.1), liblua5.3-0, libmunge2 (>= 0.5.8), libnuma1 (>= 2.0.11), librdkafka1 (>= 1.2.1), librrd8 (>= 1.3.0), libyaml-0-2, munge
+Conflicts: slurm-wlm, slurm-wlm-basic-plugins, slurm-wlm-elasticsearch-plugin, slurm-wlm-emulator, slurm-wlm-hdf5-plugin, slurm-wlm-influxdb-plugin, slurm-wlm-ipmi-plugins, slurm-wlm-jwt-plugin, slurm-wlm-mysql-plugin, slurm-wlm-plugins, slurm-wlm-rrd-plugin, slurm-wlm-rsmi-plugin
+Filename: pool/main/slurm/slurm-smd_23.11.8-1_amd64.deb
+Size: 2319118
+MD5sum: 11f8dd5e5d7903c422a04d165793e56a
+SHA1: d74fb3891dba5a484c4a93f4f39d710844f3de37
+SHA256: 20532cff889c96a44e669b383e3eca04fb9ae14ff8d0f51694250b9ec6cd0aa2
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm Workload Manager
+ Slurm is an open source, fault-tolerant, and highly scalable
+ cluster management and job scheduling system for Linux clusters.
+ Components include machine status, partition management,
+ job management, scheduling and accounting modules.
+
+Package: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 10872
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libdbus-1-3 (>= 1.11.16+really1.11.16), libfreeipmi17 (>= 1.4.4), libhdf5-103-1, libhdf5-hl-100, libhwloc15 (>= 2.7.0), libipmimonitoring6 (>= 1.1.5), libjson-c5 (>= 0.15), libjwt0 (>= 1.10.1), liblua5.3-0, libmunge2 (>= 0.5.8), libnuma1 (>= 2.0.11), librdkafka1 (>= 1.2.1), libyaml-0-2, munge
+Conflicts: slurm-wlm, slurm-wlm-basic-plugins, slurm-wlm-elasticsearch-plugin, slurm-wlm-emulator, slurm-wlm-hdf5-plugin, slurm-wlm-influxdb-plugin, slurm-wlm-ipmi-plugins, slurm-wlm-jwt-plugin, slurm-wlm-mysql-plugin, slurm-wlm-plugins, slurm-wlm-rrd-plugin, slurm-wlm-rsmi-plugin
+Filename: pool/main/slurm/slurm-smd_24.05.1-1_amd64.deb
+Size: 2365330
+MD5sum: bf9aa813c9c20a6eaa49105445339286
+SHA1: fffd033f110a29594bfe9e68f18167efed040e82
+SHA256: d19a95e67fdb6d01f9bc4e6703517d17c144e9d7fbe9c3ac2265f4ca3b679502
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm Workload Manager
+ Slurm is an open source, fault-tolerant, and highly scalable
+ cluster management and job scheduling system for Linux clusters.
+ Components include machine status, partition management,
+ job management, scheduling and accounting modules.
+
+Package: slurm-smd-client
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 1963
+Depends: libc6 (>= 2.34), libhdf5-103-1, libhdf5-hl-100, liblua5.3-0, liblz4-1 (>= 0.0~r130), libreadline8 (>= 6.0), slurm-smd (= 23.11.8-1), munge
+Conflicts: slurm-client, slurm-client-emulator
+Filename: pool/main/slurm/slurm-smd-client_23.11.8-1_amd64.deb
+Size: 727458
+MD5sum: 19d6373e7a6da2899b5ed129be5fc49f
+SHA1: 74e3c18fa75795c2df1320441c8e07301482d988
+SHA256: 209108321b43a2155dc111b9f176612741c82e5673daa0545c772aae28d2a611
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm Workload Manager client commands.
+ This package contains the Slurm client commands (excluding sview).
+
+Package: slurm-smd-client
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 1983
+Depends: libc6 (>= 2.34), libhdf5-103-1, libhdf5-hl-100, liblua5.3-0, liblz4-1 (>= 0.0~r130), libreadline8 (>= 6.0), slurm-smd (= 24.05.1-1), munge
+Conflicts: slurm-client, slurm-client-emulator
+Filename: pool/main/slurm/slurm-smd-client_24.05.1-1_amd64.deb
+Size: 732058
+MD5sum: fa60a679c5f884ccd2e3e0717c22689e
+SHA1: 41ba15bdb91bb07c995b989cc47523fff16aa82e
+SHA256: 2e3e3706825e744784bb6b46ea55ed70ea0ef6d1d893a0730555b27ce4960826
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm Workload Manager client commands.
+ This package contains the Slurm client commands (excluding sview).
+
+Package: slurm-smd-dev
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 66266
+Depends: slurm-smd (= 23.11.8-1), munge
+Conflicts: libslurm-dev, slurm-wlm-basic-plugins-dev, slurm-wlm-elasticsearch-plugin-dev, slurm-wlm-hdf5-plugin-dev, slurm-wlm-influxdb-plugin-dev, slurm-wlm-ipmi-plugins-dev, slurm-wlm-jwt-plugin-dev, slurm-wlm-mysql-plugin-dev, slurm-wlm-plugins-dev, slurm-wlm-rrd-plugin-dev, slurm-wlm-rsmi-plugin-dev
+Filename: pool/main/slurm/slurm-smd-dev_23.11.8-1_amd64.deb
+Size: 20228696
+MD5sum: b3ae3e79855d3c94ae9f302b829c4248
+SHA1: 268b69eea1aba004319ea1c76e31cd72f1b673cc
+SHA256: 6456ec5fe98cc749bdd827af3ade26063dbac691f5cc5ce5f401175ba9bb36e1
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Development package for Slurm-smd.
+ This package includes the header files and static libraries for the Slurm API.
+
+Package: slurm-smd-dev
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 71965
+Depends: slurm-smd (= 24.05.1-1), munge
+Conflicts: libslurm-dev, slurm-wlm-basic-plugins-dev, slurm-wlm-elasticsearch-plugin-dev, slurm-wlm-hdf5-plugin-dev, slurm-wlm-influxdb-plugin-dev, slurm-wlm-ipmi-plugins-dev, slurm-wlm-jwt-plugin-dev, slurm-wlm-mysql-plugin-dev, slurm-wlm-plugins-dev, slurm-wlm-rrd-plugin-dev, slurm-wlm-rsmi-plugin-dev
+Filename: pool/main/slurm/slurm-smd-dev_24.05.1-1_amd64.deb
+Size: 20287190
+MD5sum: f6c6268a605ea85b017657eee3ae9cf3
+SHA1: 860b75a5bb1d94da44c027f6b88e9cc27aab86ca
+SHA256: dfc12758067ed4c49f220b2dd292f689f3d151554bdd1d6cd35d7a2975e63f29
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Development package for Slurm-smd.
+ This package includes the header files and static libraries for the Slurm API.
+
+Package: slurm-smd-doc
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 5983
+Conflicts: slurm-wlm-doc
+Filename: pool/main/slurm/slurm-smd-doc_23.11.8-1_all.deb
+Size: 1988550
+MD5sum: f7c4d4b3267f7b362b519022925d29b5
+SHA1: 8637baf9edc5ddd3b3032b2d6be5b47d558f5240
+SHA256: f2f8faedb02d9e578d534feeb0055b45ad7d486bb2d69dd82a96bffe43903405
+Section: doc
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm HTML documentation
+ This package contains the Slurm html documentation.
+
+Package: slurm-smd-doc
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 6507
+Conflicts: slurm-wlm-doc
+Filename: pool/main/slurm/slurm-smd-doc_24.05.1-1_all.deb
+Size: 1999256
+MD5sum: 585f4d0ac98b2a4afa5ce92a4a385de2
+SHA1: 6ae0a99a8d4ee3b6f4a7d492658dd6c465aae493
+SHA256: 3f8481891d9e7738f0d1e15ffdd6ab5718d0c4d75f2759fce15d019bf1ea6bda
+Section: doc
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm HTML documentation
+ This package contains the Slurm html documentation.
+
+Package: slurm-smd-libnss-slurm
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: libc6 (>= 2.33), slurm-smd (>= 23.11.8)
+Filename: pool/main/slurm/slurm-smd-libnss-slurm_23.11.8-1_amd64.deb
+Size: 7010
+MD5sum: e66ce3bf798459864d9f2787071c5058
+SHA1: 77902a556be938dfe880ed0bf4811d9f9f394248
+SHA256: 16200cd1e78740e64d08eb391a9662a88193bcc232cacdb0386030e74b837b0b
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm NSS plugin
+  This plugin can permit passwd, group, and cloud node host resolution for a job
+  to be serviced through the local slurmstepd process.
+
+Package: slurm-smd-libnss-slurm
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: libc6 (>= 2.33), slurm-smd (>= 24.05.1)
+Filename: pool/main/slurm/slurm-smd-libnss-slurm_24.05.1-1_amd64.deb
+Size: 7010
+MD5sum: e28e7a06120bb8fbd5c044a3fc779e8e
+SHA1: aeed014ebedd31df59697a4706ba9d6f5499bd74
+SHA256: 0457e44270986ae846e1179f709e766b3df917010458620272c53ed919ba8909
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm NSS plugin
+  This plugin can permit passwd, group, and cloud node host resolution for a job
+  to be serviced through the local slurmstepd process.
+
+Package: slurm-smd-libpam-slurm-adopt
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 45
+Depends: libc6 (>= 2.34), slurm-smd (>= 23.11.8)
+Conflicts: libpam-slurm-adopt
+Filename: pool/main/slurm/slurm-smd-libpam-slurm-adopt_23.11.8-1_amd64.deb
+Size: 10862
+MD5sum: 5ef7994aacc27cd2d4a7443a640c6625
+SHA1: 32973a58f72336670c31c91f73e1240eba1e091f
+SHA256: 1bf893733071f62630b387cd2ab62c716dab1f9906e782d7fb47354f69013a68
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm's pam_slurm_adopt module
+  This module restricts access to compute nodes in a cluster where Slurm is in
+  use.  Access is granted to root, any user with an Slurm-launched job currently
+  running on the node, or any user who has allocated resources on the node
+  according to the Slurm
+
+Package: slurm-smd-libpam-slurm-adopt
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 45
+Depends: libc6 (>= 2.34), slurm-smd (>= 24.05.1)
+Conflicts: libpam-slurm-adopt
+Filename: pool/main/slurm/slurm-smd-libpam-slurm-adopt_24.05.1-1_amd64.deb
+Size: 10866
+MD5sum: 50ce273af63a1805921bc0d5068e22f0
+SHA1: 5fcbfaf68ad0688b95e1ab10cd29858bc020d751
+SHA256: 320dd7af5a0a5cb0fb0f013dcc89f0953ed626a4176fa244af2345ab495f40a0
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm's pam_slurm_adopt module
+  This module restricts access to compute nodes in a cluster where Slurm is in
+  use.  Access is granted to root, any user with an Slurm-launched job currently
+  running on the node, or any user who has allocated resources on the node
+  according to the Slurm
+
+Package: slurm-smd-libpmi0
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 45
+Depends: slurm-smd (= 23.11.8-1), libc6 (>= 2.4)
+Filename: pool/main/slurm/slurm-smd-libpmi0_23.11.8-1_amd64.deb
+Size: 11958
+MD5sum: 0aa29311597e48849595f8dd6ed40650
+SHA1: 2baa080c7272fc0d9d3a53c5f10f453ce543b650
+SHA256: e2cd9d5d718302f6283c224b1b0d97439a5ab725368aad75e17108bd9f3696f6
+Section: libs
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm PMI library implementation
+  The Slurm PMI library.
+
+Package: slurm-smd-libpmi0
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 45
+Depends: slurm-smd (= 24.05.1-1), libc6 (>= 2.4)
+Filename: pool/main/slurm/slurm-smd-libpmi0_24.05.1-1_amd64.deb
+Size: 11920
+MD5sum: e56846893565cb1bf9766218fc64f311
+SHA1: b96d8ab2995512fa16fbf8441efff08eca89008a
+SHA256: a3b67c071742f77b1ed7f03c6b94ba1bc057c0c182555b18e12dbcb6dc1c7d11
+Section: libs
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm PMI library implementation
+  The Slurm PMI library.
+
+Package: slurm-smd-libpmi2-0
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 57
+Depends: slurm-smd (= 23.11.8-1), libc6 (>= 2.14)
+Filename: pool/main/slurm/slurm-smd-libpmi2-0_23.11.8-1_amd64.deb
+Size: 15306
+MD5sum: 107f27e1fe9690e361f1fad58acd6c7f
+SHA1: a4067bf0ffe1fce34bd6830e458ea1c746464df9
+SHA256: da191839d62f8b94030d0b006f05861d277760e358d791d9b688875c4b498da8
+Section: libs
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm PMI2 library implementation
+  The Slurm PMI2 library.  For systems using Slurm, this version is preferred
+  over the compatibility libraries shipped by the PMIx project.
+
+Package: slurm-smd-libpmi2-0
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 57
+Depends: slurm-smd (= 24.05.1-1), libc6 (>= 2.14)
+Filename: pool/main/slurm/slurm-smd-libpmi2-0_24.05.1-1_amd64.deb
+Size: 15314
+MD5sum: d9e7c2420aa5f1d96807b57808c0b6ae
+SHA1: ce7e35c673d2e7befa019f4b562597002419f69f
+SHA256: 2c11f30ca4d6a4f1e2351a85bea5a77336833d6c30dbee3cdde03a8a2e17ff7e
+Section: libs
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm PMI2 library implementation
+  The Slurm PMI2 library.  For systems using Slurm, this version is preferred
+  over the compatibility libraries shipped by the PMIx project.
+
+Package: slurm-smd-libslurm-perl
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 599
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34), slurm-smd (>= 23.11.8)
+Conflicts: libslurmdb-perl
+Filename: pool/main/slurm/slurm-smd-libslurm-perl_23.11.8-1_amd64.deb
+Size: 157960
+MD5sum: b62522b9c6f466e205d4c82afb5b4794
+SHA1: f56f15863c429434072c00ac13b2bbf90f823404
+SHA256: 906189d89d2c9201157e7afdcecbfd0e1e444f9f86d3ad81c463893a2951940a
+Section: perl
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Perl API for Slurm
+  This package includes the perl API to provide a helpful interface to Slurm
+  through Perl
+
+Package: slurm-smd-libslurm-perl
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 591
+Depends: libc6 (>= 2.34), slurm-smd (>= 24.05.1)
+Conflicts: libslurmdb-perl
+Filename: pool/main/slurm/slurm-smd-libslurm-perl_24.05.1-1_amd64.deb
+Size: 157554
+MD5sum: e900633d2b89e9462f465de55f79fc6a
+SHA1: b21ca844a4fac4b218637131a221ec9b4ce9f762
+SHA256: c463e8a9aaa3e10636cefa15dfd8ca5ef9ecb22bd39591ce32ec9e9d98caeabf
+Section: perl
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Perl API for Slurm
+  This package includes the perl API to provide a helpful interface to Slurm
+  through Perl
+
+Package: slurm-smd-openlava
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: slurm-smd (>= 23.11.8-1), slurm-smd-libslurm-perl (>= 23.11.8-1), libswitch-perl, perl:any
+Filename: pool/main/slurm/slurm-smd-openlava_23.11.8-1_all.deb
+Size: 7294
+MD5sum: c08e7ecb3938a2cb40df048877761908
+SHA1: fb265a6fbf3a113076efe38cb701167be8c929a0
+SHA256: 443a07545cead4550f47b151f3bbb72986645120c84ee6ead496e912f15f6dfa
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: OpenLava compatibility wrappers for Slurm
+  OpenLava wrapper scripts used for helping migrate from OpenLava/LFS to Slurm
+
+Package: slurm-smd-openlava
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: slurm-smd (>= 24.05.1-1), slurm-smd-libslurm-perl (>= 24.05.1-1), libswitch-perl, perl:any
+Filename: pool/main/slurm/slurm-smd-openlava_24.05.1-1_all.deb
+Size: 7290
+MD5sum: a737895180cf7433a6a9eb3412357898
+SHA1: 4001b110375cfd8b5d13111dd07949a1d1849a10
+SHA256: 92e5c37260cc4e8cc444dff34f3e73c20bc95699e1f9fdd27275cd92d7a7f853
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: OpenLava compatibility wrappers for Slurm
+  OpenLava wrapper scripts used for helping migrate from OpenLava/LFS to Slurm
+
+Package: slurm-smd-sackd
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 47
+Depends: slurm-smd (= 23.11.8-1), libc6 (>= 2.34)
+Filename: pool/main/slurm/slurm-smd-sackd_23.11.8-1_amd64.deb
+Size: 11198
+MD5sum: 3a8373df203b303a14dec231ca061e1c
+SHA1: c6f20ac5305867538f38a9afa58ad550e8442aff
+SHA256: 3a74ab9adb4f379baf604f91849084cdc4bc95dd50c72272592aed79f3658be9
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm authentication daemon.
+ Used on login nodes that are not running slurmd daemons to allow authentication
+ to the cluster.
+
+Package: slurm-smd-sackd
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 48
+Depends: slurm-smd (= 24.05.1-1), libc6 (>= 2.34)
+Filename: pool/main/slurm/slurm-smd-sackd_24.05.1-1_amd64.deb
+Size: 11786
+MD5sum: 9fe88834d31077bc8316e2035d696b26
+SHA1: b914468a5484e828e46b95d88b98e0e00770448c
+SHA256: 67123fefb44912ca76fc192bbb8dfc273ad5f93d22aa95d2e683fa193adcc337
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm authentication daemon.
+ Used on login nodes that are not running slurmd daemons to allow authentication
+ to the cluster.
+
+Package: slurm-smd-slurmctld
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 1307
+Depends: libc6 (>= 2.34), slurm-smd (= 23.11.8-1), munge
+Conflicts: slurmctld
+Filename: pool/main/slurm/slurm-smd-slurmctld_23.11.8-1_amd64.deb
+Size: 534962
+MD5sum: 7e47ecd4cee2ddc63f9a2f8970549ae6
+SHA1: 7e290e6f70e153734095b24d600b1043b17941f4
+SHA256: 3780b070264ece9804bfbe60acc7cc9c6443007d28aeb3c045f2c3dfca1bfaf9
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm contoller daemon.
+ Used to manage the job queue, schedule jobs, and dispatch RPC messages to the
+ slurmd processon the compute nodes to launch jobs.
+
+Package: slurm-smd-slurmctld
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 1263
+Depends: libc6 (>= 2.34), slurm-smd (= 24.05.1-1), munge
+Conflicts: slurmctld
+Filename: pool/main/slurm/slurm-smd-slurmctld_24.05.1-1_amd64.deb
+Size: 518014
+MD5sum: db4ee9bb782c2a74990a862467774b5a
+SHA1: c3a6811becb3323b148987fbc93d0158efc9f3a2
+SHA256: f3f743486cd236c6eb8a124ffe71d094aa6cc172d03cc6dac6daaf89c730fb9b
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm contoller daemon.
+ Used to manage the job queue, schedule jobs, and dispatch RPC messages to the
+ slurmd processon the compute nodes to launch jobs.
+
+Package: slurm-smd-slurmd
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 540
+Depends: libc6 (>= 2.34), libhwloc15 (>= 2.7.0), liblz4-1 (>= 0.0~r130), libnuma1 (>= 2.0.11), libpam0g (>= 0.99.7.1), slurm-smd (= 23.11.8-1), munge
+Conflicts: slurmd
+Filename: pool/main/slurm/slurm-smd-slurmd_23.11.8-1_amd64.deb
+Size: 197164
+MD5sum: 82d8a34a5eae3232bc17fe86adf95a63
+SHA1: fc3fa4820ac95b596bd605aea849187bcc6be000
+SHA256: 8a62da94247898af44b85654f70be45b3a74ac55c679669646319baca5f26359
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm compute node daemon
+  Used to launch jobs on compute nodes.
+
+Package: slurm-smd-slurmd
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 668
+Depends: libc6 (>= 2.34), libhwloc15 (>= 2.7.0), liblz4-1 (>= 0.0~r130), libnuma1 (>= 2.0.11), libpam0g (>= 0.99.7.1), slurm-smd (= 24.05.1-1), munge
+Conflicts: slurmd
+Filename: pool/main/slurm/slurm-smd-slurmd_24.05.1-1_amd64.deb
+Size: 251856
+MD5sum: 98875c2bd6eeb73c24db64a541cc65a4
+SHA1: 27f8654171a9a99e851b634a7842b870ab09078f
+SHA256: 21f9276742c512444857ecbe7e956dffd8b59d7d6fca012488ffe115c39f1853
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm compute node daemon
+  Used to launch jobs on compute nodes.
+
+Package: slurm-smd-slurmdbd
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 150
+Depends: libc6 (>= 2.34), slurm-smd (= 23.11.8-1), munge
+Conflicts: slurmdbd
+Filename: pool/main/slurm/slurm-smd-slurmdbd_23.11.8-1_amd64.deb
+Size: 49544
+MD5sum: c67fd7ba5733aff9923e750ec3e59f28
+SHA1: c879eb4357b6f57ea376563b62a8e433b80fd5dc
+SHA256: 7ce904af1e077b579d2becef9b68bbea04a9ab87936e1134834d5de7a1108381
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm database daemon.
+ Used to accept and process database RPCs and upload database changes to
+ slurmctld daemons on each cluster.
+
+Package: slurm-smd-slurmdbd
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 150
+Depends: libc6 (>= 2.34), slurm-smd (= 24.05.1-1), munge
+Conflicts: slurmdbd
+Filename: pool/main/slurm/slurm-smd-slurmdbd_24.05.1-1_amd64.deb
+Size: 49662
+MD5sum: 2374ab117eb1b1133ed81b21df010de8
+SHA1: 541e58fdaf6735f204680790e3934ab0538254cc
+SHA256: b5ed94b45ae3a42b12b6f6a2894d2234ae8dfb89893242b9a083279ff34da96c
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm database daemon.
+ Used to accept and process database RPCs and upload database changes to
+ slurmctld daemons on each cluster.
+
+Package: slurm-smd-slurmrestd
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 116
+Depends: slurm-smd (= 23.11.8-1), libc6 (>= 2.34), libhttp-parser2.9 (>= 2.7.1)
+Conflicts: slurmrestd
+Filename: pool/main/slurm/slurm-smd-slurmrestd_23.11.8-1_amd64.deb
+Size: 40918
+MD5sum: 590772a842cafade029b2eb63dda0682
+SHA1: 7be32d55b9ede9779c9acb4c4ad9dad363bb747c
+SHA256: 4a0c4d11293a01eff6a2d3a557ac28b63ff2e7594fcd797d1dc8634dd4be38a6
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm REST API daemon
+ Provides a REST interface to Slurm using the REST API daemon slurmrestd.
+
+Package: slurm-smd-slurmrestd
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 128
+Depends: slurm-smd (= 24.05.1-1), libc6 (>= 2.34), libhttp-parser2.9 (>= 2.7.1)
+Conflicts: slurmrestd
+Filename: pool/main/slurm/slurm-smd-slurmrestd_24.05.1-1_amd64.deb
+Size: 45840
+MD5sum: 0aa032144a3a8b2fb5a20c8c00cb9dc0
+SHA1: 23164978644550d1ba4759094b70b069a4969303
+SHA256: 226aca63b16bcd67e010a61f73672ac49700e63325ff72c2509679ac9978bd23
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm REST API daemon
+ Provides a REST interface to Slurm using the REST API daemon slurmrestd.
+
+Package: slurm-smd-sview
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 374
+Depends: slurm-smd (= 23.11.8-1), libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.18.0)
+Conflicts: sview
+Filename: pool/main/slurm/slurm-smd-sview_23.11.8-1_amd64.deb
+Size: 123112
+MD5sum: e377b7e75c539d40b46022aba536208e
+SHA1: 6cfb397635a7b8fd3832d3be445fa365708b6d18
+SHA256: 14d8b2fe8a81ce8b6e3dd47bbbec1d7ebdbc2a0b13107eafbe0a8accf98ffffb
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: GUI to view or modify Slurm state information.
+ This package contains sview, a GUI for viewing Slurm configuration, job, node,
+ and partition state information.  Can be used to modify some information by
+ authorized users.
+
+Package: slurm-smd-sview
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: amd64
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 374
+Depends: slurm-smd (= 24.05.1-1), libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.18.0)
+Conflicts: sview
+Filename: pool/main/slurm/slurm-smd-sview_24.05.1-1_amd64.deb
+Size: 122722
+MD5sum: 31c8a185f11f5b77f15eaa96b77c0261
+SHA1: b90864b83e25bcba3653b3f11d9d048d0240c934
+SHA256: 7e09c50dc13e8684c888ae0fab138ea5b4a21f849fed9b7cfe16f2f45f7c808f
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: GUI to view or modify Slurm state information.
+ This package contains sview, a GUI for viewing Slurm configuration, job, node,
+ and partition state information.  Can be used to modify some information by
+ authorized users.
+
+Package: slurm-smd-torque
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 143
+Depends: slurm-smd (>= 23.11.8-1), slurm-smd-libslurm-perl (>= 23.11.8-1), libswitch-perl, libc6 (>= 2.34), perl:any
+Conflicts: gridengine-client, torque-client, torque-client-x11
+Filename: pool/main/slurm/slurm-smd-torque_23.11.8-1_all.deb
+Size: 27294
+MD5sum: 52604de7cfd0985178797e323e1cf5df
+SHA1: 73913540ae211d9ece20ad6642b5b90c4713aeda
+SHA256: d39dd61187c80ef264347fa35c67b0babf8171da09f650299da4b5842ffa6cc5
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Torque compatibility wrappers for Slurm
+  Torque wrapper scripts used for helping migrate from Torque/PBS to Slurm
+
+Package: slurm-smd-torque
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 143
+Depends: slurm-smd (>= 24.05.1-1), slurm-smd-libslurm-perl (>= 24.05.1-1), libswitch-perl, libc6 (>= 2.34), perl:any
+Conflicts: gridengine-client, torque-client, torque-client-x11
+Filename: pool/main/slurm/slurm-smd-torque_24.05.1-1_all.deb
+Size: 27300
+MD5sum: 52537d4b1a7042dee7ddaca7cd79df49
+SHA1: 704db40afb51029dfa79aecf6824b6d39b57e5f0
+SHA256: caec0487b056556f9a9ddc62e9af1aa887c3999603cb05fdce612a9ab5eddc4f
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Torque compatibility wrappers for Slurm
+  Torque wrapper scripts used for helping migrate from Torque/PBS to Slurm
+

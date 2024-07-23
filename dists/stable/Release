@@ -1,0 +1,24 @@
+Origin: Richards Repository
+Label: testing
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64 arm64 arm7
+Components: main
+Description: A repository for testing purposes
+Date: Tue, 23 Jul 2024 16:01:18 +0000
+MD5Sum:
+ b0ef92103b86421ad01c9228fa338fc6 1646 InRelease
+ 8ca60c0495401ec11243fdfd1175df4c 866 Release.gpg
+ 3665655887b85bcdbda0565e2ae3eb60 26596 main/binary-amd64/Packages
+ 1bde31ce3e2e383ade1c9d3b0c860014 6168 main/binary-amd64/Packages.gz
+SHA1:
+ 33ac74e0debb05d1338f7356fe080cd8c789ab2c 1646 InRelease
+ c2548fe84a85dcdd3f65f8e94ee9f487d6ce96f8 866 Release.gpg
+ f26652fc268b315a05a4cd6998740665a6d9bdca 26596 main/binary-amd64/Packages
+ 9ef2445dd57a5221918266a72b912871ff750f57 6168 main/binary-amd64/Packages.gz
+SHA256:
+ 7fc7e7b6cfe4b78f62763b7463051d546e82df7fbb06ec4c4441d1747884bdb6 1646 InRelease
+ 34f0e505a217a72d147051214c3d5c95c32ca97c99fbbd894f50f023cec1fd20 866 Release.gpg
+ 5275be108a20cc01946a186af99fb36fd7bb5ed354597e3e264549731d7a1835 26596 main/binary-amd64/Packages
+ ee1b9bfab3009f103342ce260bf0adaa5203dcc1f9798120e5b6c7be86f05c2c 6168 main/binary-amd64/Packages.gz

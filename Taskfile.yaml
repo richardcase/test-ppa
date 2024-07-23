@@ -1,0 +1,40 @@
+version: "3"
+
+tasks:
+
+  update: # Update the package repository
+    desc: "Updates the package repository"
+    cmds:
+      - task: update:scan
+      - task: update:compress
+      - task: update:release
+      - task: update:sign
+      - task: update:inrelease
+
+  update:scan: # Scan packages
+    cmds:
+      - dpkg-scanpackages -m --arch amd64 pool/ > dists/stable/main/binary-amd64/Packages
+
+  update:compress: # Compress the packages file
+    cmds:
+      - cat dists/stable/main/binary-amd64/Packages | gzip -9 > dists/stable/main/binary-amd64/Packages.gz
+
+  update:release: # Creates release file
+    dir: dists/stable
+    cmds:
+      - ../../generate-release.sh > Release
+
+  update:sign: # Sign the release
+    cmds:
+      - cat dists/stable/Release | gpg --default-key "someone@somewhere.com" -abs > dists/stable/Release.gpg
+
+  update:inrelease: # Create an inrelease file
+    cmds:
+      - cat dists/stable/Release | gpg --default-key "someone@somewhere.com" -abs --clearsign > dists/stable/InRelease
+
+
+  serve:
+    desc: "Serve the apt repository"
+    cmds:
+      - python3 -m http.server
+
