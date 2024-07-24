@@ -1,0 +1,136 @@
+Package: simpletestapp
+Version: 0.1.1
+Architecture: arm64
+Maintainer: Richard Case <richard.case@outlook.ocom>
+Installed-Size: 1408
+Filename: pool/main/simpletestapp/simpletestapp_0.1.1_linux_arm64.deb
+Size: 591728
+MD5sum: 78602a80f58d122cd23191ec46789844
+SHA1: 59a855759871ec863f9f89ad19a7750c59d4ae64
+SHA256: 30a31ae577eb857b907a742585c9225e26ce8fe41c5e809b7b6a631c5fb8727f
+Priority: optional
+Description: A simple cli app for use in demos
+
+Package: simpletestapp
+Version: 0.1.2
+Architecture: arm64
+Maintainer: Richard Case <richard.case@outlook.ocom>
+Installed-Size: 1408
+Filename: pool/main/simpletestapp/simpletestapp_0.1.2_linux_arm64.deb
+Size: 591864
+MD5sum: b16e518c8a7b6e5996e0a4b80c21ee3b
+SHA1: 0fbadff6996044885081c8416eae723e14b366a6
+SHA256: 796857bae6af12fd1ef662ab88c231e10e8fdeca96d4981f72221d0c4cadca98
+Priority: optional
+Description: A simple cli app for use in demos
+
+Package: slurm-smd-doc
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 5983
+Conflicts: slurm-wlm-doc
+Filename: pool/main/slurm/slurm-smd-doc_23.11.8-1_all.deb
+Size: 1988550
+MD5sum: f7c4d4b3267f7b362b519022925d29b5
+SHA1: 8637baf9edc5ddd3b3032b2d6be5b47d558f5240
+SHA256: f2f8faedb02d9e578d534feeb0055b45ad7d486bb2d69dd82a96bffe43903405
+Section: doc
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm HTML documentation
+ This package contains the Slurm html documentation.
+
+Package: slurm-smd-doc
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 6507
+Conflicts: slurm-wlm-doc
+Filename: pool/main/slurm/slurm-smd-doc_24.05.1-1_all.deb
+Size: 1999256
+MD5sum: 585f4d0ac98b2a4afa5ce92a4a385de2
+SHA1: 6ae0a99a8d4ee3b6f4a7d492658dd6c465aae493
+SHA256: 3f8481891d9e7738f0d1e15ffdd6ab5718d0c4d75f2759fce15d019bf1ea6bda
+Section: doc
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Slurm HTML documentation
+ This package contains the Slurm html documentation.
+
+Package: slurm-smd-openlava
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: slurm-smd (>= 23.11.8-1), slurm-smd-libslurm-perl (>= 23.11.8-1), libswitch-perl, perl:any
+Filename: pool/main/slurm/slurm-smd-openlava_23.11.8-1_all.deb
+Size: 7294
+MD5sum: c08e7ecb3938a2cb40df048877761908
+SHA1: fb265a6fbf3a113076efe38cb701167be8c929a0
+SHA256: 443a07545cead4550f47b151f3bbb72986645120c84ee6ead496e912f15f6dfa
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: OpenLava compatibility wrappers for Slurm
+  OpenLava wrapper scripts used for helping migrate from OpenLava/LFS to Slurm
+
+Package: slurm-smd-openlava
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: slurm-smd (>= 24.05.1-1), slurm-smd-libslurm-perl (>= 24.05.1-1), libswitch-perl, perl:any
+Filename: pool/main/slurm/slurm-smd-openlava_24.05.1-1_all.deb
+Size: 7290
+MD5sum: a737895180cf7433a6a9eb3412357898
+SHA1: 4001b110375cfd8b5d13111dd07949a1d1849a10
+SHA256: 92e5c37260cc4e8cc444dff34f3e73c20bc95699e1f9fdd27275cd92d7a7f853
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: OpenLava compatibility wrappers for Slurm
+  OpenLava wrapper scripts used for helping migrate from OpenLava/LFS to Slurm
+
+Package: slurm-smd-torque
+Source: slurm-smd
+Version: 23.11.8-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 143
+Depends: slurm-smd (>= 23.11.8-1), slurm-smd-libslurm-perl (>= 23.11.8-1), libswitch-perl, libc6 (>= 2.34), perl:any
+Conflicts: gridengine-client, torque-client, torque-client-x11
+Filename: pool/main/slurm/slurm-smd-torque_23.11.8-1_all.deb
+Size: 27294
+MD5sum: 52604de7cfd0985178797e323e1cf5df
+SHA1: 73913540ae211d9ece20ad6642b5b90c4713aeda
+SHA256: d39dd61187c80ef264347fa35c67b0babf8171da09f650299da4b5842ffa6cc5
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Torque compatibility wrappers for Slurm
+  Torque wrapper scripts used for helping migrate from Torque/PBS to Slurm
+
+Package: slurm-smd-torque
+Source: slurm-smd
+Version: 24.05.1-1
+Architecture: all
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 143
+Depends: slurm-smd (>= 24.05.1-1), slurm-smd-libslurm-perl (>= 24.05.1-1), libswitch-perl, libc6 (>= 2.34), perl:any
+Conflicts: gridengine-client, torque-client, torque-client-x11
+Filename: pool/main/slurm/slurm-smd-torque_24.05.1-1_all.deb
+Size: 27300
+MD5sum: 52537d4b1a7042dee7ddaca7cd79df49
+SHA1: 704db40afb51029dfa79aecf6824b6d39b57e5f0
+SHA256: caec0487b056556f9a9ddc62e9af1aa887c3999603cb05fdce612a9ab5eddc4f
+Section: admin
+Priority: optional
+Homepage: http://slurm.schedmd.com
+Description: Torque compatibility wrappers for Slurm
+  Torque wrapper scripts used for helping migrate from Torque/PBS to Slurm
+
