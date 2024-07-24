@@ -6,7 +6,7 @@
 
 ```bash
 curl -s --compressed "https://richardcase.github.io/test-ppa/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/test_ppa.gpg >/dev/null
-echo "deb [arch=amd64, signed-by=/etc/apt/trusted.gpg.d/test_ppa.gpg] https://richardcase.github.io/test-ppa stable main" | sudo tee /etc/apt/sources.list.d/test_ppa.list
+echo "deb [signed-by=/etc/apt/trusted.gpg.d/test_ppa.gpg] https://richardcase.github.io/test-ppa stable main" | sudo tee /etc/apt/sources.list.d/test_ppa.list
 sudo apt-get update
 ```
 
